@@ -41,7 +41,7 @@
  font-size: 1rem;
  border-radius: 3px;
  font-family: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
- background: linear-gradient(#888 50%,#666 50% ,#666 75%, #888 100%);
+ background: linear-gradient(#888 50%,#555 50% ,#777 75%, #999 100%);
 }
 
 .nav-items a:hover {
@@ -50,15 +50,23 @@
 
 [type="search"] {
 border-radius: 10px;
-background-color: inherit;
-box-shadow: 0 0 4px 0 #222;
-border: none;
+ box-shadow: 0 -7px 2px -4px #333;
+border: #666 solid 1px;
 height: 22px;
 width: 80%;
 background-image: url('../Assets/images/magnify.png');
 background-repeat: no-repeat;
-background-position: 5px 2px;
+background-position: 5px 5px;
+background-color: inherit;
+margin-top: 2px;
 }
+
+[type="search"]:focus {
+background-color: #fff;
+width: 100%;
+border: #666 solid 1px;
+}
+
 .apple {
  background: url("./images/globalnav_text.png");
  background-position: -25px 4px;
