@@ -5,15 +5,12 @@
  align-items: center;
 }
 
-
 .hero {
  box-sizing: border-box;
  width: 1440px;
  height: 690px;
  display:flex;
- /* padding-bottom: -100px; */
  flex-direction: column;
-/*  justify-items: evenly; */
  justify-content: center;
  align-items: center;
  background: url(https://web.archive.org/web/20140301004302im_/http://images.apple.com/v/home/as/images/your_verse_hero.jpg); 
@@ -24,15 +21,14 @@
 }
 
 .nav-items {
-/*  height:590px; */
  margin-top: 100px;
  display: flex;
  border: 1px grey solid;
  width:900px;
- font-size: 1.5rem;
+ font-size: 12pxrem;
  background-color:grey;
  border-radius: 5px;
- font: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
+ font-family: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
 
 }
 
@@ -42,8 +38,12 @@
 
 .nav-items li {
  flex:1;
- padding:.3em;
+ height: 13px;
  border-right: solid #666 1px;
+ height: 30px;
+ display:flex;
+ align-items: center;
+ justify-content: center;
  
 }
  .nav-items a {
@@ -71,7 +71,6 @@
  width: 980px;
  height: 84px;
  background: url("./images/your_verse_title_medium.png");
-/*  background-position: top center; */
 }
 .subhead {
  width: 980px;
@@ -87,6 +86,10 @@
  background-color: red;
  background: url("./images/cta_your_verse_27pt.png");
  background-position: top center;
+}
+
+.lasthead:hover {
+   background-position: bottom center;
 }
 .cards {
  width: 1440px;
@@ -105,7 +108,6 @@
 footer {
  display:flex;
  flex-direction: column;
-/*  justify-content: space-between; */
 }
 
  .footer-links {
@@ -114,7 +116,6 @@ footer {
  
 .footer-shopping {
  border: none;
-/*  background-color:red; */
 }
 footer p {
  font-size: 0.75rem;
@@ -125,7 +126,6 @@ footer a {
  text-decoration: none;
  color: #08c;
  font-size: 0.75rem;
- /* border-right: #ddd solid 1px; */
  padding: 0 .5em;
 }
 .footer-anchors {
