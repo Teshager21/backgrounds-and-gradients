@@ -211,3 +211,6 @@ footer a {
 .terms {
  border-right: 1px solid #999;
 }
+.country{
+ border:none !important;
+}
