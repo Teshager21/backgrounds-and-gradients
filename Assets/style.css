@@ -59,10 +59,10 @@ root {
 }
 
 footer a {
- text-decoration: none;
- color: #08c;
- font-size: 0.75rem;
- padding: 0 0.5em;
+  text-decoration: none;
+  color: #08c;
+  font-size: 0.75rem;
+  padding: 0 0.5em;
 }
 
 .verse a {
