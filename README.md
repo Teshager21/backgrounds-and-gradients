@@ -1,4 +1,4 @@
-# New York Times Clone
+# Apple Page Clone
  This is a project of cloning the Old Apple webpage from Internet archive as a part of practicing CSS from Odin Project.
 
 ![screenshot](./Assets/images/screenshot.png)
@@ -40,7 +40,7 @@ To get a local copy up and running follow these simple example steps.
 
     Contributions, issues and feature requests are welcome!
 
-Feel free to check the [issues page](issues/).
+Feel free to check the [issues page](https://github.com/Teshager21/OldAppleClone/issues).
 
 ## Show your support
 
