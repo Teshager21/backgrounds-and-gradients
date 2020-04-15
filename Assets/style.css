@@ -58,12 +58,31 @@ root {
   background: linear-gradient(#888 50%, #555 50%, #777 75%, #999 100%);
 }
 
+.verse a {
+ margin-bottom: 1.2em;
+ margin-top: 1em;
+}
+
+footer a {
+ text-decoration: none;
+ color: #08c;
+ font-size: 0.75rem;
+ padding: 0 0.5em;
+}
+
 .nav-items a {
   flex: 1;
   border-right: solid #555 1px;
   display: flex;
   align-items: center;
   justify-content: center;
+   text-decoration: none;
+   color: white;
+   font-weight: 500;
+}
+
+.footer-anchors a {
+ border-right: 1px solid #999;
 }
 
 .nav-items a:hover {
@@ -106,12 +125,6 @@ root {
   margin: 0 auto;
 }
 
-.nav-items a {
-  text-decoration: none;
-  color: white;
-  font-weight: 500;
-}
-
 .store {
   background: url("./images/globalnav_text.png");
   background-position: 50% -30px;
@@ -125,11 +138,6 @@ root {
   flex-direction: column;
   justify-content: center;
   margin-bottom: 150px;
-}
-
-.verse a {
-  margin-bottom: 1.2em;
-  margin-top: 1em;
 }
 
 .title {
@@ -213,20 +221,9 @@ footer p {
   border: none;
 }
 
-footer a {
-  text-decoration: none;
-  color: #08c;
-  font-size: 0.75rem;
-  padding: 0 0.5em;
-}
-
 .footer-anchors {
   display: flex;
   padding-left: 40px;
-}
-
-.footer-anchors a {
-  border-right: 1px solid #999;
 }
 
 .footer-legal {
