@@ -1,7 +1,7 @@
 # New York Times Clone
  This is a project of cloning the Old Apple webpage from Internet archive as a part of practicing CSS from Odin Project.
 
-![screenshot](./assets/img/screenshot.png)
+![screenshot](./Assets/images/screenshot.png)
     Additional description about the project and its features.
 
 ## Built With
