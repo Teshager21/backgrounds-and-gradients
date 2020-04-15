@@ -58,16 +58,16 @@ root {
   background: linear-gradient(#888 50%, #555 50%, #777 75%, #999 100%);
 }
 
+footer a {
+ text-decoration: none;
+ color: #08c;
+ font-size: 0.75rem;
+ padding: 0 0.5em;
+}
+
 .verse a {
   margin-bottom: 1.2em;
   margin-top: 1em;
-}
-
-footer a {
-  text-decoration: none;
-  color: #08c;
-  font-size: 0.75rem;
-  padding: 0 0.5em;
 }
 
 .nav-items a {
