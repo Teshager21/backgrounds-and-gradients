@@ -30,13 +30,15 @@
  background-color:grey;
  border-radius: 3px;
  font-family: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
+ background: linear-gradient(#888 50%,#666 50% ,#666 75%, #888 100%);
 
 }
 
 [type="search"] {
 border-radius: 10px;
 background-color: inherit;
-/* box-shadow:inherit; */
+box-shadow: 0 0 4px 0 #222;
+border: none;
 height: 22px;
 width: 80%;
 background-image: url('../Assets/images/magnify.png');
@@ -76,7 +78,7 @@ background-position: 5px 2px;
   
  .store {
    background: url("./images/globalnav_text.png");
-   background-position:center -30px;
+   background-position: 50% -30px;
    background-size: 160% 240px;
    background-repeat: no-repeat;
    }
