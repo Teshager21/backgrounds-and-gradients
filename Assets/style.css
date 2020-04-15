@@ -59,11 +59,11 @@ root {
 }
 
 .nav-items a {
- flex: 1;
- border-right: solid #555 1px;
- display: flex;
- align-items: center;
- justify-content: center;
+  flex: 1;
+  border-right: solid #555 1px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .nav-items a:hover {
