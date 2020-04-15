@@ -1,13 +1,13 @@
 
 @font-face {
- font-family: "Lucida Grande";
- src: url("../Assets/fonts/Lucida\ Grande.ttf");
- font-style: normal;
- font-weight: 100;
+  font-family: "Lucida Grande";
+  src: url("../Assets/fonts/Lucida\ Grande.ttf");
+  font-style: normal;
+  font-weight: 100;
 }
 
 root {
- font-family: "Lucida Grande","Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
+  font-family: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
 }
 
 
@@ -205,10 +205,11 @@ footer {
   /* background-color: green; */
   padding-right: 40px;
 }
- 
+
 footer * {
- font-family: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
+  font-family: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
 }
+
 footer p {
   font-size: 10px;
   color: #777;
@@ -220,7 +221,6 @@ footer a {
   color: #08c;
   font-size: 0.75rem;
   padding: 0 0.5em;
-  
 }
 
 .footer-anchors {
