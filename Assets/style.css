@@ -167,6 +167,7 @@ footer {
 .footer-shopping {
  border: none;
  background-color: green;
+ padding-right: 40px;
 }
 footer p {
  font-size: 10px;
@@ -186,4 +187,8 @@ footer a {
 }
 .footer-legal {
  display: flex;
+ list-style: none;
+ text-align: center;
+ text-decoration: none;
+ font-size: 10px;
 }
