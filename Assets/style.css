@@ -58,6 +58,14 @@ root {
   background: linear-gradient(#888 50%, #555 50%, #777 75%, #999 100%);
 }
 
+.nav-items a {
+ flex: 1;
+ border-right: solid #555 1px;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+}
+
 .nav-items a:hover {
   background-color: #555;
 }
@@ -96,16 +104,6 @@ root {
 
 .mssg {
   margin: 0 auto;
-}
-
-.nav-items a {
-  flex: 1;
-
-  /*  flex-basis: 100px; */
-  border-right: solid #555 1px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }
 
 .nav-items a {
