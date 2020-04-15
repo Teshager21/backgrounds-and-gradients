@@ -11,17 +11,20 @@
  width: 1440px;
  height: 690px;
  display:flex;
- padding-bottom: -100px;
+ /* padding-bottom: -100px; */
  flex-direction: column;
- justify-items: space-between;
+/*  justify-items: evenly; */
+ justify-content: center;
  align-items: center;
  background: url(https://web.archive.org/web/20140301004302im_/http://images.apple.com/v/home/as/images/your_verse_hero.jpg); 
  background-repeat: no-repeat;
  background-size: 1440px,100%;
  background-position: right bottom;
+ background-color:black;
 }
 
 .nav-items {
+/*  height:590px; */
  margin-top: 100px;
  display: flex;
  border: 1px grey solid;
@@ -49,11 +52,42 @@
   font-weight: 500;
   
  }
+ .apple {
+  background-image: url(/web/20140301004259im_/http://images.apple.com/global/nav/images/globalnav_text.svg);
+ }
 
 .verse {
  flex:6;
+ display:flex;
+ flex-direction: column;
+ justify-content: center;
+ margin-bottom: 100px;
 }
-
+.verse div {
+ margin-bottom: 2em;
+ margin-top: 0;
+}
+.title {
+ width: 980px;
+ height: 84px;
+ background: url("./images/your_verse_title_medium.png");
+/*  background-position: top center; */
+}
+.subhead {
+ width: 980px;
+ height: 82px;
+ background: url("./images/your_verse_subhead_medium.png");
+ background-size:100% 100%;
+ background-repeat: no-repeat;
+ background-position: top center;
+}
+.lasthead {
+ width: 980px;
+ height:32px;
+ background-color: red;
+ background: url("./images/cta_your_verse_27pt.png");
+ background-position: top center;
+}
 .cards {
  width: 1440px;
  flex: 1;
@@ -73,30 +107,29 @@ footer {
  flex-direction: column;
 /*  justify-content: space-between; */
 }
-footer a {
- text-decoration: none;
- color: #08c;
- font-size: 0.75em;
-}
+
  .footer-links {
   display: flex;
  }
-.footer-shopping  {
- font-size: 0.75em;
+ 
+.footer-shopping {
+ border: none;
+/*  background-color:red; */
 }
-.footer-shopping a {
+footer p {
+ font-size: 0.75rem;
+ color: inherit;
+ border: none;
+}
+footer a {
+ text-decoration: none;
  color: #08c;
+ font-size: 0.75rem;
+ /* border-right: #ddd solid 1px; */
+ padding: 0 .5em;
 }
 .footer-anchors {
  display:flex;
-}
-
-.footer-anchors a {
- text-decoration: none;
- font-size: .75rem;
- border-right: #ddd solid 1px;
- padding: 0 .5em;
- color: #08c;
 }
 .footer-legal {
  display: flex;
