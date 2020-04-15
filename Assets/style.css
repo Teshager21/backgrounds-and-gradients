@@ -86,7 +86,7 @@ border: #666 solid 1px;
 .nav-items a {
  flex:1;
 /*  flex-basis: 100px; */
- border-right: solid #666 1px;
+ border-right: solid #555 1px;
  display:flex;
  align-items: center;
  justify-content: center;
@@ -181,7 +181,7 @@ footer {
 }
 footer p {
  font-size: 10px;
- color: inherit;
+ color: #777;
  border: none;
 }
 footer a {
@@ -194,6 +194,11 @@ footer a {
  display:flex;
  padding-left: 40px;
 }
+
+.footer-anchors a {
+ border-right: 1px solid #999;
+}
+
 .footer-legal {
  display: flex;
  list-style: none;
@@ -201,4 +206,8 @@ footer a {
  text-decoration: none;
  font-size: 10px;
  padding-bottom: 30px;
+}
+
+.terms {
+ border-right: 1px solid #999;
 }
