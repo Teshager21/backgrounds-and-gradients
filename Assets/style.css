@@ -55,7 +55,7 @@ root {
   font-size: 1rem;
   border-radius: 3px;
   font-family: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
-  background: linear-gradient(#888 50%, #555 50%, #777 75%, #999 100%);
+  background: linear-gradient(#888 0%, #888 25%, #555 75%, #888 100%);
 }
 
 footer a {
@@ -104,8 +104,9 @@ footer a {
 
 [type="search"]:focus {
   background-color: #fff;
-  width: 100%;
+  width: 180px;
   border: #666 solid 1px;
+  outline:none;
 }
 
 .apple {
