@@ -23,22 +23,28 @@
 .nav-items {
  margin-top: 100px;
  display: flex;
+ height: 30px;
  border: 1px grey solid;
- width:900px;
- font-size: 12pxrem;
+ width:960px;
+ font-size: 1rem;
  background-color:grey;
  border-radius: 5px;
  font-family: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
 
 }
 
+.apple {
+ background: url("./images/globalnav_text.png");
+ background-position: top left;
+ background-size: 100% 240px;
+ background-repeat: no-repeat;
+}
 .mssg {
  margin: 0 auto;
 }
 
 .nav-items li {
  flex:1;
- height: 13px;
  border-right: solid #666 1px;
  height: 30px;
  display:flex;
@@ -50,11 +56,12 @@
   text-decoration: none;
   color:white;
   font-weight: 500;
-  
  }
+  
+ /* }
  .apple {
   background-image: url(/web/20140301004259im_/http://images.apple.com/global/nav/images/globalnav_text.svg);
- }
+ } */
 
 .verse {
  flex:6;
