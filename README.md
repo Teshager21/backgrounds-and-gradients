@@ -17,14 +17,12 @@
 
 To get a local copy up and running follow these simple example steps.
 
-
 ### How to install using Command line
 
     1. Click on the install or download button under the repository name and grab the url 
     by clicking on the clipboard icon
-
-     <img src="./Assets/images/howtoinstall.png">
-
+    
+![Step-1](./Assets/images/screenshot.png)
 
     2.open your terminal
 
