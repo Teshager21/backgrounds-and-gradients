@@ -23,7 +23,7 @@ To get a local copy up and running follow these simple example steps.
     1. Click on the install or download button under the repository name and grab the url 
     by clicking on the clipboard icon
 
-     ![screenshot](https://github.com/Teshager21/OldAppleClone/blob/feature-branch/Assets/images/howtoinstall.png)
+     <img src="./Assets/images/howtoinstall.png">
 
 
     2.open your terminal
