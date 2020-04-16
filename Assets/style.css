@@ -1,4 +1,8 @@
 
+/* ============================================================
+                      typography
+============================================================= */
+
 @font-face {
   font-family: "Lucida Grande";
   src: url("../Assets/fonts/Lucida\ Grande.ttf");
@@ -38,8 +42,6 @@ root {
   background-repeat: no-repeat;
   background-size: 1440px, 100%;
   background-position: right bottom;
-
-  /*  background-color:black; */
 }
 
 /****************************************************************
@@ -50,12 +52,12 @@ root {
   margin-top: 83px;
   display: flex;
   height: 34px;
-  border: 1px grey solid;
+  border: 0px #333 solid;
   width: 960px;
   font-size: 1rem;
   border-radius: 3px;
   font-family: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
-  background: linear-gradient(#888 0%, #888 25%, #555 75%, #888 100%);
+  background: linear-gradient(#888 50%,#444 50%, #555 75%, #888 100%);
 }
 
 footer a {
@@ -91,7 +93,7 @@ footer a {
 
 [type="search"] {
   border-radius: 10px;
-  box-shadow: 0 -7px 2px -4px #333;
+  box-shadow: 0 -7px 4px -4px #333;
   border: #666 solid 1px;
   height: 22px;
   width: 80%;
@@ -201,14 +203,10 @@ footer {
   display: flex;
   margin-bottom: 10px;
   justify-content: space-around;
-
-  /* background-color:blue; */
 }
 
 .footer-shopping {
   border: none;
-
-  /* background-color: green; */
   padding-right: 40px;
 }
 
