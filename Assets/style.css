@@ -52,12 +52,12 @@ root {
   margin-top: 83px;
   display: flex;
   height: 34px;
-  border: 0px #333 solid;
+  border: 0 #333 solid;
   width: 960px;
   font-size: 1rem;
   border-radius: 3px;
   font-family: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
-  background: linear-gradient(#888 50%,#444 50%, #555 75%, #888 100%);
+  background: linear-gradient(#888 50%, #444 50%, #555 75%, #888 100%);
 }
 
 footer a {
