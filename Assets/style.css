@@ -128,13 +128,13 @@ footer a {
   margin: 0 auto;
 }
 
-.store {
+/* .store {
   background: url("./images/globalnav_text.png");
   background-position: 50% -30px;
   background-size: 160% 240px;
   background-repeat: no-repeat;
 }
-
+ */
 .verse {
   flex: 6;
   display: flex;
