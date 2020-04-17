@@ -90,6 +90,10 @@ footer a {
 
 .nav-items a:first-child:hover {
   border-radius: 3px;
+  background: linear-gradient(#555 50% , #444 50%,  #555 100%);;
+  /* background-position: -25px 4px;
+  background-size: 150% 240px;
+  background-repeat: no-repeat; */
 }
 
 .footer-anchors a {
@@ -97,7 +101,14 @@ footer a {
 }
 
 .nav-items a:hover {
-  background-color: #555;
+  background: linear-gradient(#555 50% , #444 50%,  #555 100%);
+}
+
+.nav-items a:first-child:hover {
+  background: url("./images/globalnav_text.png"),linear-gradient(#555 50% , #444 50%,  #555 100%);;;
+  background-position: -25px 4px;
+  background-size: 150% 240px;
+  background-repeat: no-repeat;
 }
 
 [type="search"] {
@@ -176,11 +187,11 @@ footer a {
 
 .lasthead:hover {
   background-position: bottom center;
+}
 
   /***********************************************************
                   cards
  ***********************************************************/
-}
 
 .cards {
   width: 1440px;
