@@ -31,7 +31,7 @@ To get a local copy up and running follow these simple example steps.
 
     3.Navigate to the location in your computer where you want the repo to be cloned
 
-    4. Type git clone   git clone  ,and paste the url you copied on step one. 
+    4. Type git clone  and paste the url you copied on step one. 
 
         $ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
 
