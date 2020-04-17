@@ -145,6 +145,7 @@ footer a {
   align-items: center;
   justify-content: center;
   flex-basis: 15%;
+  transition: flex 400ms;
 }
 
 .search:focus-within {
