@@ -66,5 +66,4 @@ Feel free to check the [issues page](https://github.com/Teshager21/OldAppleClone
 Give a ⭐️ if you like this project!
 
 ## 📝 License
-
 This project is [MIT](lic.url) licensed.
