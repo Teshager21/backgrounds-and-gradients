@@ -13,6 +13,9 @@
 
 [Live Demo Link](https://rawcdn.githack.com/Teshager21/OldAppleClone/12ac4b704182f10071b3ed59a7230a5b0587f4af/index.html)
 
+## Milestone
+
+  To match with the original click [here](https://web.archive.org/web/20140301004610/http://www.apple.com/)
 ## Getting Started
 
 To get a local copy up and running follow these simple example steps.
