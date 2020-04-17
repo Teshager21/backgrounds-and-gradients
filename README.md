@@ -13,6 +13,9 @@
 
 [Live Demo Link](https://rawcdn.githack.com/Teshager21/OldAppleClone/12ac4b704182f10071b3ed59a7230a5b0587f4af/index.html)
 
+## Milestone
+
+  To match with the original click [here](https://web.archive.org/web/20140301004610/http://www.apple.com/)
 ## Getting Started
 
 To get a local copy up and running follow these simple example steps.
@@ -28,7 +31,7 @@ To get a local copy up and running follow these simple example steps.
 
     3.Navigate to the location in your computer where you want the repo to be cloned
 
-    4. Type git clone   git clone  ,and paste the url you copied on step one. 
+    4. Type git clone  and paste the url you copied on step one. 
 
         $ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
 
