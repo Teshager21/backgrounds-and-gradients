@@ -11,7 +11,7 @@
 
 ## Live Demo
 
-[Live Demo Link](https://rawcdn.githack.com/Teshager21/OldAppleClone/89c61d3036479ed771cdf75634eb3218ee0e9556/index.html)
+[Live Demo Link](https://rawcdn.githack.com/Teshager21/OldAppleClone/7807c2d4152e4054a90d06e172e1880f1d7c5cec/index.html)
 
 ## Milestone
 
@@ -22,7 +22,7 @@ To get a local copy up and running follow these simple example steps.
 
 ### How to install using Command line
 
-    1. Click on the install or download button under the repository name and grab the url 
+    1. Click on the install or download button under the repository name and grab the url
     by clicking on the clipboard icon
 
 ![Step-1](./Assets/images/howtoinstall.png)
@@ -31,7 +31,7 @@ To get a local copy up and running follow these simple example steps.
 
     3.Navigate to the location in your computer where you want the repo to be cloned
 
-    4. Type git clone  and paste the url you copied on step one. 
+    4. Type git clone  and paste the url you copied on step one.
 
         $ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
 
