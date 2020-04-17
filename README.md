@@ -11,7 +11,7 @@
 
 ## Live Demo
 
-[Live Demo Link](https://rawcdn.githack.com/Teshager21/OldAppleClone/12ac4b704182f10071b3ed59a7230a5b0587f4af/index.html)
+[Live Demo Link](https://rawcdn.githack.com/Teshager21/OldAppleClone/89c61d3036479ed771cdf75634eb3218ee0e9556/index.html)
 
 ## Milestone
 
