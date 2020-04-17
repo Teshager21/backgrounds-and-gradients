@@ -126,7 +126,7 @@ footer a {
 
 [type="search"]:focus {
   background-color: #fff;
-  width: 180px;
+  width: 80%;
   border: #666 solid 1px;
   outline: none;
 }
@@ -142,10 +142,17 @@ footer a {
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-basis: 15%;
 }
+
+.search:focus-within {
+  flex: 15%;
+}
+
 
 .mssg {
   margin: 0 auto;
+  flex:2;
 }
 
 /* .store {
