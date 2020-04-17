@@ -88,6 +88,10 @@ footer a {
   font-weight: 500;
 }
 
+.nav-items a:first-child:hover {
+  border-radius: 3px;
+}
+
 .footer-anchors a {
   border-right: 1px solid #999;
 }
